@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="/Users/prashantgaikar/Desktop/Prash Website/IMG/Prashant.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>Qualifications</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">QUALIFICATIONS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Prashant Gaikar.</h1>
+    <p>Motion Graphics Artist.</p>
+    <img src="/Users/prashantgaikar/Desktop/Prash Website/IMG/Prashant2.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I’m based in Mumbai from 21st Oct 1999, it’s my birth date. Only child from a middle class family living in slum. My father is a clerk and mother is a housewife. I’ve done my schooling from Marathi medium, weak in English. From sketching faces to complicated mathematics, along with 12th failed tag. Having change in track from hospitality to the advertising industry, difficult decision but positive impact. Unity and discipline of NCC made me tackle every situation. Let’s go through my profile.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">After Effects</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Illustrator</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Premiere Pro</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">4-5</span><br>
+        Brands
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">25+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">25+</span><br>
+        Appreciation
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+    <i class="paper"></i> <a href ="/Users/prashantgaikar/Desktop/Prash Website/PDF/Prashant CV.pdf" attributes-list download ="optional-value" > My Resume</a>
+    </button>
+    
+   
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="/Users/prashantgaikar/Desktop/Onkar Website/IMG/WhatsApp Image 2022-07-19 at 10.53.40 PM.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Aditya Chopra.</span> Co-Founder of Open Mind Media Production.</p>
+    <p>Prashant is a good worker, very good at his craft and has great understanding of design and animation.</p><br>
+
+    <img src="/Users/prashantgaikar/Desktop/Prash Website/IMG/WhatsApp Image 2022-07-20 at 11.39.51 AM.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Aditya Valanju.</span> Creative Consultant.</p>
+    <p>Prashant has a good understanding of briefs and is able to convert them into satisfying outputs.</p><br>
+    
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Education</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Education section -->
+    <p><span class="w3-large w3-margin-right">B.P.M. High School</span> SSC</p>
+    <p>March 2015.</p><br>
+    <p><span class="w3-large w3-margin-right">Chetana College</span> HSC</p>
+    <p>July 2017.</p><br>
+    <p><span class="w3-large w3-margin-right">Kohinoor College</span> B.Sc. in Hospitality Studies & Catering Science</p>
+    <p>March 2021.</p><br>
+    <p><span class="w3-large w3-margin-right">Arena Animation</span> Animation.</p>
+    <p>2022.</p><br>
+    </div>
+
+    <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Work Experience</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Education section -->
+    <p><span class="w3-large w3-margin-right">Svenska Design Hotel</span> Trainee.</p>
+    <p>July 2018- Novembar 2018.</p><br>
+    <p><span class="w3-large w3-margin-right">Baèsic Fit</span> Kitchen Staff.</p>
+    <p>March 2021.</p><br>
+    <p><span class="w3-large w3-margin-right">Open Mind</span> Animator.</p>
+    <p>October 2021- Present.</p><br>
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Mumbai</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 9372431704</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: prashantgaikar32@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+         <i class="fa fa-paper-plane"></i> <a href = "mailto: prashantgaikar32@gmail.com">Send Message</a>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge"><p>Connect on social media</p>
+  <a href="https://instagram.com/mr_prasharts?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/prashant-gaikar-13b72a85/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+ <!-- End footer -->
+</footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
